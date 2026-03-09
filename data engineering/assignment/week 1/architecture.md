@@ -9,19 +9,22 @@
 6. Amazon Athena was used to query both the catalog table and the processed data.
 
 ## Architecture Diagram
+
+```
 CSV file
-↓
+        ↓
 Amazon S3 (raw)
-↓
+        ↓
 AWS Glue Crawler
-↓
+        ↓
 Glue Data Catalog
-↓
+        ↓
 AWS Glue ETL Job
-↓
+        ↓
 Amazon S3 (processed Parquet)
-↓
+        ↓
 Amazon Athena
+```
 
 ## Why this matters
 This project demonstrates a basic serverless AWS data pipeline and shows how raw data can be ingested, cataloged, transformed, and queried for analytics.
