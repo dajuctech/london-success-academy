@@ -36,6 +36,9 @@ credentials
 *.pem
 *.key
 
+# Data files
+*.csv
+
 # Temporary files
 *.tmp
 *.log

@@ -1,6 +1,6 @@
 # Week 1 Assignment – AWS Data Foundations & Cloud ETL
 
-**London Success Academy | Data Engineering Programme**
+**London Success Academy | Data Engineering Programme**<br>
 **Data-SPARK Mentorship – Venkat Potamsetti**
 
 ---
@@ -140,10 +140,12 @@ urban_nest_db
 
 A Glue Crawler was created and pointed at the raw S3 folder. It scanned the CSV file and automatically created a table in the Data Catalog.
 
-**Crawler name:** `urban-nest-house-crawler`
-**Data source:** `s3://urban-nest-data-lake-daniel-2026/raw/`
-**Output database:** `urban_nest_db`
-**Crawler status:** Succeeded
+| Detail | Value |
+|--------|-------|
+| **Crawler name** | `urban-nest-house-crawler` |
+| **Data source** | `s3://urban-nest-data-lake-daniel-2026/raw/` |
+| **Output database** | `urban_nest_db` |
+| **Crawler status** | Succeeded |
 
 **What does a crawler do?** It reads your file, figures out the column names and data types automatically, and registers a queryable table — no manual schema definition needed.
 
@@ -250,6 +252,19 @@ Week 1/
 
 ---
 
+## Week 1 Deliverables
+
+The following deliverables were completed as required by the assignment brief:
+
+| Deliverable | Status | Evidence |
+|-------------|--------|----------|
+| AWS Glue crawler screenshot | Done | `images/Screenshot_3_Crawler_Completed.png` |
+| Glue job workflow | Done | `images/Screenshot_6_Glue_ETL_Job_Success.png` |
+| Athena query results | Done | `images/Screenshot_5_Athena_Query_Result.png` |
+| Documentation of pipeline architecture | Done | `architecture.md` |
+
+---
+
 ## Key Learning Outcomes
 
 Through this assignment I learned how to:
@@ -283,6 +298,6 @@ Through this assignment I learned how to:
 
 ## Author
 
-**Daniel Jude**
-London Success Academy — Data Engineering Programme
-Week 1 Assignment — Data Foundations & Cloud ETL
+**Name:** Daniel Jude<br>
+**Programme:** London Success Academy — Data Engineering<br>
+**Assignment:** Week 1 — Data Foundations & Cloud ETL
