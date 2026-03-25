@@ -190,3 +190,7 @@ The other thing that stood out was how much the exploration step mattered. I alm
 **Assignment:** Week 3 – Analytics Dashboard Project
 
 **Date:** March 2026
+
+**GitHub Repository:** https://github.com/dajuctech/london-success-academy
+
+**Week 3 Folder:** https://github.com/dajuctech/london-success-academy/tree/main/data%20engineering/assignment/week%203
